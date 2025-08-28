@@ -37,25 +37,6 @@ const Hero = () => {
               <Badge variant="outline" className="bg-card/50 border-neural-blue/30">AI/ML</Badge>
             </div>
             
-            {/* Action buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                size="lg" 
-                variant="neural"
-                className="animate-glow"
-              >
-                <span className="mr-2">⚡</span>
-                Live Demo
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="border-neural-blue/30 hover:bg-neural-blue/10"
-              >
-                <span className="mr-2">📄</span>
-                View Code
-              </Button>
-            </div>
           </div>
           
           {/* Right image */}
