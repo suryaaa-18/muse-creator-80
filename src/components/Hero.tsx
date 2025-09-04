@@ -13,10 +13,6 @@ const Hero = () => {
           {/* Left content */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <Badge variant="secondary" className="bg-neural-blue/10 text-neural-blue border-neural-blue/20">
-                <span className="w-2 h-2 rounded-full bg-neural-blue animate-pulse mr-2"></span>
-                AI/Python
-              </Badge>
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
                 AI content are{" "}
                 <span className="text-transparent bg-gradient-to-r from-neural-blue to-neural-cyan bg-clip-text">
@@ -27,14 +23,6 @@ const Hero = () => {
                 Whereas we are destined to crafting the content. 
                 Python-based AI application that generates creative content using machine learning models with a clean web interface for user interaction.
               </p>
-            </div>
-            
-            {/* Tech stack badges */}
-            <div className="flex flex-wrap gap-3">
-              <Badge variant="outline" className="bg-card/50 border-neural-blue/30">Python</Badge>
-              <Badge variant="outline" className="bg-card/50 border-neural-cyan/30">Flask</Badge>
-              <Badge variant="outline" className="bg-card/50 border-neural-purple/30">TensorFlow</Badge>
-              <Badge variant="outline" className="bg-card/50 border-neural-blue/30">AI/ML</Badge>
             </div>
             
           </div>
